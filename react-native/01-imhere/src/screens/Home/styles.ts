@@ -22,5 +22,18 @@ export const styles = StyleSheet.create({
     color: '#FDFCFE',
     height: 56,
     padding: 16
+  },
+  button: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 56,
+    width: 56,
+    backgroundColor: '#31CF67',
+    borderRadius: 5,
+    marginTop: 10,
+  },
+  buttonText: {
+    color: '#FDFCFE',
+    fontSize: 24
   }
 });
