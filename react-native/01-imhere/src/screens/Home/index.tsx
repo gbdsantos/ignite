@@ -17,15 +17,17 @@ export default function Home() {
         Sexta, 12 de Janeiro de 2024.
       </Text>
 
-      <TextInput
-        placeholder="Nome do participante"
-        placeholderTextColor="#6B6B6B"
-        style={styles.input}
-      />
+      <View style={styles.form}>
+        <TextInput
+          placeholder="Nome do participante"
+          placeholderTextColor="#6B6B6B"
+          style={styles.input}
+        />
 
-      <TouchableOpacity onPress={handleParticipantAdd} style={styles.button}>
-        <Text style={styles.buttonText}>+</Text>
-      </TouchableOpacity>
+        <TouchableOpacity onPress={handleParticipantAdd} style={styles.button}>
+          <Text style={styles.buttonText}>+</Text>
+        </TouchableOpacity>
+      </View>
     </View >
   );
 }
