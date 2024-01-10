@@ -39,7 +39,7 @@ export default function Home() {
         },
         {
           text: 'Sim',
-          onPress: () => Alert.alert("Apagado!")
+          onPress: () => setParticipants(prevState => prevState.filter(participant => participant !== name))
         }
       ]
     );
