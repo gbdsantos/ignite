@@ -20,6 +20,8 @@ import http from 'node:http';
 
 // Headers (Request / Response) => Metadata
 
+// HTTP Status Codes
+
 const users = [];
 
 const server = http.createServer((request, response) => {
@@ -42,10 +44,10 @@ const server = http.createServer((request, response) => {
       email: 'johndoe@example.com'
     })
 
-    return response.end('User creation');
+    return response.writeHead(201).end();
   }
 
-  return response.end('Hello World');
+  return response.writeHead(404).end();
 });
 
 server.listen(3333);
