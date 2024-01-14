@@ -15,6 +15,13 @@ import http from 'node:http';
 // PATCH  => Update a specific information of resource in the back-end
 // DELETE => Delete a resource in the back-end
 
+// Stateful (data stored locally in memory)
+// Stateless (does not save anything in memory)
+
+// Headers (Request / Response) => Metadata
+
+const users = [];
+
 const server = http.createServer((request, response) => {
   const { method, url } = request;
 
@@ -23,11 +30,19 @@ const server = http.createServer((request, response) => {
 
   if (method === 'GET' && url === '/users') {
     // Early return
-    return response.end('Users listing');
+    return response
+      .setHeader('Content-type', 'application/json')
+      .end(JSON.stringify(users));
   }
 
   if (method === 'POST' && url === '/users') {
-    return response.end('User creation')
+    users.push({
+      id: 1,
+      name: 'John Doe',
+      email: 'johndoe@example.com'
+    })
+
+    return response.end('User creation');
   }
 
   return response.end('Hello World');
