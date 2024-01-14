@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    Node.js Fundamentals
+    Fundamentos do Node.js
 </h1>
 
 <p align="center">
@@ -15,25 +15,31 @@
   </a>
 </p>
 
-## Getting Start
+## Iniciando
 
 ```bash
-# Run application
+# Executar aplicação
 npm run dev
 ```
 
-## Commands executed
+## Comandos executados
 
 ```bash
-# Starting project
+# Inciando projeto
  npm init -y
 
-# Run application
+# Executar aplicação
 node src/server.js
 
-# Run application
+# Executar aplicação
  node --watch src/server.js
 ```
+
+<br>
+
+## Conceitos
+
+- **Non Blocking IO:** _Input_ e _Output_ não bloqueante
 
 <br>
 
