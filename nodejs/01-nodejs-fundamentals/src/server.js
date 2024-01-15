@@ -42,10 +42,14 @@ const server = http.createServer(async (request, response) => {
   // Output: GET /
 
   const route = routes.find(route => {
-    return route.method === method && route.path === url;
+    return route.method === method && route.path.test(url);
   });
 
   if (route) {
+    const routeParams = request.url.match(route.path);
+
+    console.log(routeParams);
+
     return route.handler(request, response);
   }
 
