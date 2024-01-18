@@ -27,10 +27,10 @@ npm run dev
 In this challenge you will develop an API to perform CRUD of your _tasks_.
 The API must contain the following functionalities:
 
-- [ ] Creation of a task
-- [ ] List of all tasks
-- [ ] Update a task by `id`
-- [ ] Remove a task by `id`
+- [x] Creation of a task
+- [x] List of all tasks
+- [x] Update a task by `id`
+- [x] Remove a task by `id`
 - [ ] Mark a task as complete by `id`
 - And the real challenge: Importing tasks in bulk via a CSV file
 
