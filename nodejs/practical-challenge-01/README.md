@@ -37,8 +37,8 @@ The API must contain the following functionalities:
 - [x] List of all tasks
 - [x] Update a task by `id`
 - [x] Remove a task by `id`
-- [ ] Mark a task as complete by `id`
-- And the real challenge: Importing tasks in bulk via a CSV file
+- [x] Mark a task as complete by `id`
+- [ ] And the real challenge: Importing tasks in bulk via a CSV file
 
 <br>
 
@@ -56,7 +56,7 @@ Before the routes, let's understand what structure (properties) a task should ha
 **Routes:**
 
 <details>
-  <summary> POST /tasks  ✅ </summary>
+  <summary> POST /tasks  </summary>
 
 - [x] It must be possible to create a task in the database, sending the `title` and `description` fields through the `body` of the request.
 - [x] When creating a task, the fields: `id`, `created_at`, `updated_at` and `completed_at` must be filled in automatically, as per the orientation of the properties above.
@@ -66,11 +66,11 @@ Before the routes, let's understand what structure (properties) a task should ha
    <summary>GET /tasks</summary>
 
 - [x] It must be possible to list all tasks saved in the database.
-- [ ] It should also be possible to perform a search, filtering tasks by `title` and `description`
+- [x] It should also be possible to perform a search, filtering tasks by `title` and `description`
 </details>
 
 <details>
-   <summary>PUT /tasks/:id  ✅</summary>
+   <summary>PUT /tasks/:id </summary>
 
 - [x] It must be possible to update a task by `id`.
 - [x] In the `body` of the request, you must receive only the `title` and/or `description` to be updated.
@@ -79,11 +79,25 @@ Before the routes, let's understand what structure (properties) a task should ha
 </details>
 
 <details>
-   <summary>DELETE /tasks/:id ✅</summary>
+   <summary>DELETE /tasks/:id</summary>
 
 - [x] It should be possible to remove a task by `id`.
 - [x] Before carrying out the removal, validation must be carried out whether the `id` belongs to a task saved in the database.
 </details>
+
+<details>
+   <summary>PATCH /tasks/:id/complete</summary>
+
+- [x] It must be possible to mark the task as complete or not. This means that if the task is completed, it should return to its “normal” state.
+- [x] Before making the change, a validation must be carried out whether the `id` belongs to a task saved in the database.
+</details>
+
+<br>
+
+## Extra mile
+
+- [x] Validate whether the `title` and `description` properties of the `POST` and `PUT` routes are present in the `body` of the request.
+- [x] In routes that receive `/:id`, in addition to validating whether the `id` exists in the database, return the request with a message stating that the record does not exist.
 
 <br>
 

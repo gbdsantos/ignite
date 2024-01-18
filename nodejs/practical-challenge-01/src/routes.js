@@ -108,5 +108,34 @@ export const routes = [
 
       return response.writeHead(204).end();
     }
+  },
+  {
+    method: 'PATCH',
+    path: buildRoutePath('/tasks/:id/complete'),
+    handler: (request, response) => {
+      const { id } = request.params;
+
+      const allTasks = database.select('tasks');
+
+      const [task] = allTasks.filter(row => row.id === id);
+
+      if (!task) {
+        return response.writeHead(404).end(JSON.stringify({
+          status: "error",
+          status_code: 404,
+          message: "The specified task does not exist."
+        }));
+      }
+
+      database.update('tasks', id, {
+        title: task.title,
+        description: task.description,
+        completed_at: new Date(),
+        created_at: task.created_at,
+        updated_at: new Date()
+      });
+
+      return response.writeHead(204).end();
+    }
   }
 ]
