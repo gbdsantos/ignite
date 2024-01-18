@@ -15,6 +15,12 @@
   </a>
 </p>
 
+<p align="center">
+    <a href="#about" alt="About">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#business" alt="About">Business requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#commands-executed" alt="Commands executed">Commands executed</a>
+</p>
+
 ## Getting Start
 
 ```bash
@@ -33,6 +39,51 @@ The API must contain the following functionalities:
 - [x] Remove a task by `id`
 - [ ] Mark a task as complete by `id`
 - And the real challenge: Importing tasks in bulk via a CSV file
+
+<br>
+
+## Business requirements and Routes (endpoints) <a name="business"></a>
+
+Before the routes, let's understand what structure (properties) a task should have:
+
+- `id` - Unique identifier for each task
+- `title` - Task title
+- `description` - Detailed description of the task
+- `completed_at` - Date when the task was completed. The initial value must be `null`
+- `created_at` - Date when the task was created.
+- `updated_at` - Must always be changed to the date when the task was updated.
+
+**Routes:**
+
+<details>
+  <summary> POST /tasks  ✅ </summary>
+
+- [x] It must be possible to create a task in the database, sending the `title` and `description` fields through the `body` of the request.
+- [x] When creating a task, the fields: `id`, `created_at`, `updated_at` and `completed_at` must be filled in automatically, as per the orientation of the properties above.
+</details>
+
+<details>
+   <summary>GET /tasks</summary>
+
+- [x] It must be possible to list all tasks saved in the database.
+- [ ] It should also be possible to perform a search, filtering tasks by `title` and `description`
+</details>
+
+<details>
+   <summary>PUT /tasks/:id  ✅</summary>
+
+- [x] It must be possible to update a task by `id`.
+- [x] In the `body` of the request, you must receive only the `title` and/or `description` to be updated.
+- [x] If only the `title` is sent, it means that the `description` cannot be updated and vice versa.
+- [x] Before carrying out the update, validation must be carried out whether the `id` belongs to a task saved in the database.
+</details>
+
+<details>
+   <summary>DELETE /tasks/:id ✅</summary>
+
+- [x] It should be possible to remove a task by `id`.
+- [x] Before carrying out the removal, validation must be carried out whether the `id` belongs to a task saved in the database.
+</details>
 
 <br>
 

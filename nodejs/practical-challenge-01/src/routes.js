@@ -26,6 +26,14 @@ export const routes = [
     handler: (request, response) => {
       const { title, description } = request.body;
 
+      if (!title || !description) {
+        return response.writeHead(400).end(JSON.stringify({
+          status: "error",
+          status_code: 400,
+          message: "Expected receive title and description properties."
+        }));
+      }
+
       const task = {
         id: randomUUID(),
         title,
@@ -51,7 +59,11 @@ export const routes = [
       const [task] = allTasks.filter(row => row.id === id);
 
       if (!task) {
-        return response.writeHead(404).end();
+        return response.writeHead(404).end(JSON.stringify({
+          status: "error",
+          status_code: 404,
+          message: "The specified task does not exist."
+        }));
       }
 
       database.delete('tasks', id);
@@ -66,12 +78,24 @@ export const routes = [
       const { id } = request.params;
       const { title, description } = request.body;
 
+      if (!title || !description) {
+        return response.writeHead(400).end(JSON.stringify({
+          status: "error",
+          status_code: 400,
+          message: "Expected receive title and description properties."
+        }));
+      }
+
       const allTasks = database.select('tasks');
 
       const [task] = allTasks.filter(row => row.id === id);
 
       if (!task) {
-        return response.writeHead(404).end();
+        return response.writeHead(404).end(JSON.stringify({
+          status: "error",
+          status_code: 404,
+          message: "The specified task does not exist."
+        }));
       }
 
       database.update('tasks', id, {
