@@ -8,7 +8,9 @@
     <img alt="Node.js version" src="https://img.shields.io/badge/node.js-v20.11.0-43853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gbdsantos/ignite.svg">
+  <a href="https://csv.js.org/parse">
+    <img alt="csv-parse" src="https://img.shields.io/badge/csv--parse-v5.5.3-blue?logo=csv-parse&labelColor=20232A&color=5a5a5a">
+  </a>
 
   <a href="https://github.com/gbdsantos/ignite/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gbdsantos/ignite.svg">
@@ -38,7 +40,7 @@ The API must contain the following functionalities:
 - [x] Update a task by `id`
 - [x] Remove a task by `id`
 - [x] Mark a task as complete by `id`
-- [ ] And the real challenge: Importing tasks in bulk via a CSV file
+- [x] And the real challenge: Importing tasks in bulk via a CSV file
 
 <br>
 
@@ -106,6 +108,12 @@ Before the routes, let's understand what structure (properties) a task should ha
 ```bash
 # Starting project
  npm init -y
+
+# Install csv-parse
+npm install csv-parse
+
+# Import tasks from CSV file
+node src/streams/import-csv.js
 ```
 
 <br>
