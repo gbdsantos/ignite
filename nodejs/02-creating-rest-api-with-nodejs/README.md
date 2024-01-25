@@ -52,6 +52,9 @@ npm install @types/node -D
 
 # Install tsx
 npm install tsx -D
+
+# Install ESLint
+npm install eslint @rocketseat/eslint-config -D
 ```
 
 ---
