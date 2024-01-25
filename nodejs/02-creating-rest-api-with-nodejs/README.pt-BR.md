@@ -58,6 +58,9 @@ npm install eslint @rocketseat/eslint-config -D
 
 # Instalar Knex.js e driver nativo do SQLite
 npm install knex sqlite3
+
+# Criar primeira migration com Knex
+npm run knex -- migrate:make create-documents
 ```
 
 ---
