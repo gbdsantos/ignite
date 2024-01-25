@@ -43,6 +43,15 @@ npm i -D typescript
 
 # Inicializar TypeScript
 npx tsc --init
+
+# Instalar Fastify
+npm install fastify
+
+# Adicionar tipagam do Node.js
+npm install @types/node -D
+
+# Instalar tsx
+npm install tsx -D
 ```
 
 ---
