@@ -52,8 +52,14 @@
 ## Getting Start <a name = "start"></a>
 
 ```bash
+# Install dependencies
+npm install
+
 # Run application
 npm run dev
+
+# Run test
+npm test
 ```
 
 ## Commands executed <a name = "commands"></a>
@@ -103,6 +109,9 @@ npm install @fastify/cookie
 
 # Install Vitest
 npm install vitest -D
+
+# Install supertest and @types/supertest
+ npm i supertest @types/supertest -D
 ```
 
 <br>
