@@ -46,10 +46,9 @@
     <a href="#technologies" alt="Technologies used">Technologies Used</a>
 </p>
 
-
 <div align="center">
   <h4 align="center">read in the language</h4>
-  <a href="https://github.com/gbdsantos/ignite/tree/master/nodejs/02-creating-rest-api-with-nodejs/README.pt-br.md" hreflang="pt-br" alt="pt-br">🇧🇷 portuguese
+  <a href="https://github.com/gbdsantos/ignite/blob/master/nodejs/02-creating-rest-api-with-nodejs/README.pt-BR.md" hreflang="pt-br" alt="pt-br">🇧🇷 portuguese
   </a>
 </div>
 
@@ -64,6 +63,9 @@ npm run dev
 
 # Run test
 npm test
+
+# Build application
+npm run build
 ```
 
 ## Commands executed <a name = "commands"></a>
@@ -115,7 +117,10 @@ npm install @fastify/cookie
 npm install vitest -D
 
 # Install supertest and @types/supertest
- npm i supertest @types/supertest -D
+ npm install supertest @types/supertest -D
+
+# Install tsup
+ npm install tsup -D
 ```
 
 <br>
@@ -149,6 +154,7 @@ npm install vitest -D
 - [Knex.js](https://knexjs.org "Knex.js - SQL query builder for JavaScript") - SQL query builder for JavaScript
 - [Node.js](https://nodejs.org "Node.js") - JavaScript runtime environment / plataform
 - [SQLite](https://www.sqlite.org/index.html "SQLite") - Local database
+- [tsup](https://tsup.egoist.dev "tsup - Bundle your TypeScript library with no config, powered by esbuild") - Bundle your TypeScript library with no config, powered by esbuild
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Programming language and superset for JavaScript
 - [Vitest](https://vitest.dev "Vitest - Testing framework that use esbuild") - Testing framework that use esbuild
 - [Zod](https://zod.dev "Zod") - TypeScript-first schema validations

@@ -1,1 +1,5 @@
-database/app.sqlite
+# Database
+database/*.sqlite
+
+# Build
+build

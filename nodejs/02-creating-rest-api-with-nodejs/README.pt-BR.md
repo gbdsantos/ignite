@@ -63,6 +63,9 @@ npm run dev
 
 # Executar testes
 npm test
+
+# Buildar aplicação
+npm run build
 ```
 
 ## Comandos executados <a name = "commands"></a>
@@ -114,7 +117,10 @@ npm install @fastify/cookie
 npm install vitest -D
 
 # Instalar supertest e @types/supertest
- npm i supertest @types/supertest -D
+ npm install supertest @types/supertest -D
+
+ # Instalar tsup
+ npm install tsup -D
 ```
 
 <br>
@@ -147,6 +153,7 @@ npm install vitest -D
 - [Knex.js](https://knexjs.org "Knex.js - SQL query builder para JavaScript") - SQL query builder para JavaScript
 - [Node.js](https://nodejs.org "Node.js") - Ambiente/plataforma em tempo de execução para JavaScript
 - [SQLite](https://www.sqlite.org/index.html "SQLite") - Banco de dados local
+- [tsup](https://tsup.egoist.dev "tsup - Compile sua aplicação/biblioteca TypeScript sem configurações, *powered by* esbuild") - Compile sua aplicação/biblioteca TypeScript sem configurações, *powered by* esbuild
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Linguagem de programação e *superset* para JavaScript
 - [Vitest](https://vitest.dev "Vitest - Framework de teste que usa esbuild") - Framework de teste que usa esbuild
 - [Zod](https://zod.dev "Zod") - Validação de estruturas de dados e tipagens *TypeScript-first*
