@@ -61,6 +61,12 @@ npm install knex sqlite3
 
 # Criar primeira migration com Knex
 npm run knex -- migrate:make create-documents
+
+# Executar migrations
+npm run knex -- migrate:latest
+
+# Desfazer última migration
+npm run knex -- migrate:rollback
 ```
 
 ---
