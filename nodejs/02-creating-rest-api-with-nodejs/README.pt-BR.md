@@ -40,7 +40,7 @@
 
 <div align="center">
   <h4 align="center">leia no idioma</h4>
-  <a href="https://github.com/gbdsantos/ignite" hreflang="en-us" alt="en-us">🇺🇸 inglês
+  <a href="https://github.com/gbdsantos/ignite/tree/master/nodejs/02-creating-rest-api-with-nodejs" hreflang="en-us" alt="en-us">🇺🇸 inglês
   </a>
 </div>
 
@@ -99,16 +99,16 @@ npm install zod
 ## Requisitos de negócio <a name = "business"></a>
 
 **Requisitos funcionais (RF)**
-- [ ] O usuário deve poder criar uma nova transação
-- [ ] O usuário deve poder obter um resumo da sua conta
-- [ ] O usuário deve poder listar todas transações que já ocorreram
-- [ ] O usuário deve poder visualizar uma transação única
+- [x] O usuário deve poder criar uma nova transação
+- [x] O usuário deve poder obter um resumo da sua conta
+- [x] O usuário deve poder listar todas transações que já ocorreram
+- [x] O usuário deve poder visualizar uma transação única
 
 <br>
 
 **Requisitos de negócio (RN)**
 
-- [ ] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá
+- [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá
 - [ ] Deve ser possível identificarmos o usuário entre as requisições
 - [ ] O usuário só pode visualizar transações o qual ele criou
 

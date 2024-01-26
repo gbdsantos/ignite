@@ -41,7 +41,7 @@
 
 <div align="center">
   <h4 align="center">read in the language</h4>
-  <a href="https://github.com/gbdsantos/ignite/blob/master/README.pt-br.md" hreflang="pt-br" alt="pt-br">🇧🇷 portuguese
+  <a href="https://github.com/gbdsantos/ignite/tree/master/nodejs/02-creating-rest-api-with-nodejs/README.pt-br.md" hreflang="pt-br" alt="pt-br">🇧🇷 portuguese
   </a>
 </div>
 
@@ -101,16 +101,16 @@ npm install zod
 
 **Functional Requirements (FR)**
 
-- [ ] The user should be able to create a new transaction
-- [ ] The user should be able to get a summary of their account
-- [ ] The user should be able to list all transactions that have occurred.
-- [ ] The user should be able to view a single transaction
+- [x] The user should be able to create a new transaction
+- [x] The user should be able to get a summary of their account
+- [x] The user should be able to list all transactions that have occurred.
+- [x] The user should be able to view a single transaction
 
 <br>
 
 **Business Requirements (BR)**
 
-- [ ] The transaction can be of the credit type, which will add to the total amount, or debit type, which will subtract
+- [x] The transaction can be of the credit type, which will add to the total amount, or debit type, which will subtract
 - [ ] It should be possible to identify the user between requests
 - [ ] The user can only view transactions that they have created
 
