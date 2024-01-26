@@ -5,11 +5,11 @@
 
 <p align="center">
   <a href="https://fastify.io">
-    <img alt="Fastify version" src="https://img.shields.io/badge/fastify-v4.25.2-43853D?style=flat&logo=fastify&logoColor=white&labelColor=20232A&color=5a5a5a">
+    <img alt="Fastify version" src="https://img.shields.io/badge/fastify-20232A?style=flat&logo=fastify&logoColor=white">
   </a>
 
   <a href="https://knexjs.org">
-    <img alt="Knex version" src="https://img.shields.io/badge/knex-v3.1.0-43853D?style=flat&logo=knex.js&logoColor=white&labelColor=e16426&color=5a5a5a">
+    <img alt="Knex version" src="https://img.shields.io/badge/knex-e16426?style=flat&logo=knex.js&logoColor=white">
   </a>
 
   <a href="https://nodejs.org">
@@ -17,11 +17,15 @@
   </a>
 
   <a href="https://www.sqlite.org/index.html">
-    <img alt="SQLite version" src="https://img.shields.io/badge/sqlite-v5.1.7-43853D?style=flat&logo=sqlite&logoColor=white&labelColor=007acc&color=5a5a5a">
+    <img alt="SQLite version" src="https://img.shields.io/badge/sqlite-007acc?style=flat&logo=sqlite&logoColor=white">
   </a>
 
   <a href="https://www.typescriptlang.org">
-    <img alt="TypeScript version" src="https://img.shields.io/badge/typescript-v5.3.3-43853D?style=flat&logo=typescript&logoColor=white&labelColor=007acc&color=5a5a5a">
+    <img alt="TypeScript version" src="https://img.shields.io/badge/typescript-007acc?style=flat&logo=typescript&logoColor=white">
+  </a>
+
+  <a href="https://vitest.dev" alt="Vitest - Testing framework that use esbuild">
+    <img src="https://img.shields.io/badge/Vitest-FFA116?style=flat&logo=vitest&logoColor=white" alt="Vitest logo image" />
   </a>
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gbdsantos/ignite.svg">
@@ -96,6 +100,9 @@ npm install zod
 
 # Install @fastify/cookies
 npm install @fastify/cookie
+
+# Install Vitest
+npm install vitest -D
 ```
 
 <br>
@@ -114,8 +121,8 @@ npm install @fastify/cookie
 **Business Requirements (BR)**
 
 - [x] The transaction can be of the credit type, which will add to the total amount, or debit type, which will subtract
-- [ ] It should be possible to identify the user between requests
-- [ ] The user can only view transactions that they have created
+- [x] It should be possible to identify the user between requests
+- [x] The user can only view transactions that they have created
 
 <br>
 
@@ -130,6 +137,7 @@ npm install @fastify/cookie
 - [Node.js](https://nodejs.org "Node.js") - JavaScript runtime environment / plataform
 - [SQLite](https://www.sqlite.org/index.html "SQLite") - Local database
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Programming language and superset for JavaScript
+- [Vitest](https://vitest.dev "Vitest - Testing framework that use esbuild") - Testing framework that use esbuild
 - [Zod](https://zod.dev "Zod") - TypeScript-first schema validations
 
 ---
