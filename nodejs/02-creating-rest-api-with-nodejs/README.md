@@ -70,6 +70,9 @@ npm run knex -- migrate:rollback
 
 # Install dotenv
 npm install dotenv
+
+# Install Zod
+npm install zod
 ```
 
 ---
