@@ -25,13 +25,17 @@
   </a>
 
   <a href="https://vitest.dev" alt="Vitest - Testing framework that use esbuild">
-    <img src="https://img.shields.io/badge/Vitest-FFA116?style=flat&logo=vitest&logoColor=white" alt="Vitest logo image" />
+    <img src="https://img.shields.io/badge/Vitest-FFA116?style=flat&logo=vitest&logoColor=white" alt="imagem do logotipo Vitest" />
+  </a>
+
+  <a href="https://zod.dev" alt="Zod - Validação de esquema TypeScript-first com inferência de tipo estático">
+    <img src="https://img.shields.io/badge/Zod-274d82?style=flat&logo=zod&logoColor=white" alt="imagem do logotipo Zod" />
   </a>
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gbdsantos/ignite.svg">
 
   <a href="https://github.com/gbdsantos/ignite/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gbdsantos/ignite.svg">
+    <img alt="GitHub último commit" src="https://img.shields.io/github/last-commit/gbdsantos/ignite.svg">
   </a>
 </p>
 

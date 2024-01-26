@@ -28,6 +28,10 @@
     <img src="https://img.shields.io/badge/Vitest-FFA116?style=flat&logo=vitest&logoColor=white" alt="Vitest logo image" />
   </a>
 
+  <a href="https://zod.dev" alt="Zod - TypeScript-first schema validation with static type inference">
+    <img src="https://img.shields.io/badge/Zod-274d82?style=flat&logo=zod&logoColor=white" alt="Zod logo image" />
+  </a>
+
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gbdsantos/ignite.svg">
 
   <a href="https://github.com/gbdsantos/ignite/commits/master">
