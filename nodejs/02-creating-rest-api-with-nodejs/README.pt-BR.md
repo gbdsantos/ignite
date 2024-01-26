@@ -67,6 +67,9 @@ npm run knex -- migrate:latest
 
 # Desfazer última migration
 npm run knex -- migrate:rollback
+
+# Instalar dotenv
+npm install dotenv
 ```
 
 ---
