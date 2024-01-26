@@ -93,6 +93,9 @@ npm install dotenv
 
 # Install Zod
 npm install zod
+
+# Install @fastify/cookies
+npm install @fastify/cookie
 ```
 
 <br>
