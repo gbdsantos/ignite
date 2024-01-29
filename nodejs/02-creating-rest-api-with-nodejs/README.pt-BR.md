@@ -54,6 +54,8 @@
 
 ## Iniciando <a name = "start"></a>
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=02%20Ignite%20Node.js%20API%20REST&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fgbdsantos%2Fignite%2Fmaster%2Fnodejs%2F02-creating-rest-api-with-nodejs%2Finsomnia-collection.json)
+
 ```bash
 # Instalar as dependências
 npm install
@@ -66,6 +68,9 @@ npm test
 
 # Buildar aplicação
 npm run build
+
+# Deploy da aplicação
+npm install && npm run knex:render -- migrate:latest && npm run build
 ```
 
 ## Comandos executados <a name = "commands"></a>
@@ -92,8 +97,11 @@ npm install tsx -D
 # Instalar ESLint
 npm install eslint @rocketseat/eslint-config -D
 
-# Instalar Knex.js e driver nativo do SQLite
-npm install knex sqlite3
+# Instalar Knex.js
+npm install knex
+
+# Instalar driver nativo do SQLite
+npm install sqlite3 -D
 
 # Criar primeira migration com Knex
 npm run knex -- migrate:make create-documents
@@ -121,6 +129,9 @@ npm install vitest -D
 
  # Instalar tsup
  npm install tsup -D
+
+  # Instalar driver PostgreSQL
+ npm install pg
 ```
 
 <br>
