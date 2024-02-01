@@ -22,7 +22,7 @@
 ## Iniciando
 
 ```bash
-# Run application
+# Executar aplicação
 npm run dev
 ```
 
@@ -56,78 +56,41 @@ Neste desafio deve ser desenvolvido uma API para controle de dieta diária.
 **Rotas:**
 
 <details>
-  <summary> POST /tasks  </summary>
+  <summary>POST /users</summary>
 
-- [x] It must be possible to create a task in the database, sending the `title` and `description` fields through the `body` of the request.
-- [x] When creating a task, the fields: `id`, `created_at`, `updated_at` and `completed_at` must be filled in automatically, as per the orientation of the properties above.
-</details>
-
-<details>
-   <summary>GET /tasks</summary>
-
-- [x] It must be possible to list all tasks saved in the database.
-- [x] It should also be possible to perform a search, filtering tasks by `title` and `description`
-</details>
-
-<details>
-   <summary>PUT /tasks/:id </summary>
-
-- [x] It must be possible to update a task by `id`.
-- [x] In the `body` of the request, you must receive only the `title` and/or `description` to be updated.
-- [x] If only the `title` is sent, it means that the `description` cannot be updated and vice versa.
-- [x] Before carrying out the update, validation must be carried out whether the `id` belongs to a task saved in the database.
-</details>
-
-<details>
-   <summary>DELETE /tasks/:id</summary>
-
-- [x] It should be possible to remove a task by `id`.
-- [x] Before carrying out the removal, validation must be carried out whether the `id` belongs to a task saved in the database.
-</details>
-
-<details>
-   <summary>PATCH /tasks/:id/complete</summary>
-
-- [x] It must be possible to mark the task as complete or not. This means that if the task is completed, it should return to its “normal” state.
-- [x] Before making the change, a validation must be carried out whether the `id` belongs to a task saved in the database.
+- [ ] Deve ser possível criar um usuário
 </details>
 
 <br>
 
-## Extra mile
-
-- [x] Validate whether the `title` and `description` properties of the `POST` and `PUT` routes are present in the `body` of the request.
-- [x] In routes that receive `/:id`, in addition to validating whether the `id` exists in the database, return the request with a message stating that the record does not exist.
+## Milha extra
 
 <br>
 
 ## Comandos executados
 
 ```bash
-# Starting project
+# Iniciando projeto
  npm init -y
 
-# Install TypeScript
-npm i -D typescript
+# Instalar TypeScript, @types/node, tsx e tsup
+npm install typescript @types/node tsx tsup -D
 
-# Inicialize TypeScript
+# Incializar TypeScript
 npx tsc --init
 
-# Install Fastify
-npm install fastify
+# Instalar Fastify, dotenv, knex e zod
+npm install fastify dotenv knex zod
 
-# Add Node.js types
-npm install @types/node -D
+# Instalar eslint
+npm install eslint -D
 
-# Install tsx
-npm install tsx -D
-
-# Install Knex.js and SQLite native driver
-npm install knex
+# Inicializar eslint
+npx eslint --init
 ```
 
 <br>
 
 ---
 
-Feito com ♥ por **Guilherme Bezerra** 👋 [Get in touch!](https://www.linkedin.com/in/gbdsantos "LinkedIn - Guilherme Bezerra")
+Feito com ♥ por **Guilherme Bezerra** 👋 [Entrar em contato!](https://www.linkedin.com/in/gbdsantos "LinkedIn - Guilherme Bezerra")
