@@ -13,6 +13,8 @@ dotenv.config({ path: envFile })
 // console.log(process.env.NODE_ENV)
 
 const envSchema = z.object({
+  DATABASE_CLIENT: z.enum(['sqlite', 'postgres']),
+  DATABASE_URL: z.string(),
   NODE_ENV: z.enum(['dev', 'test', 'production']).default('dev'),
   PORT: z.coerce.number().default(3333)
 })
