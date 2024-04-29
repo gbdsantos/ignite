@@ -73,7 +73,7 @@ npm run build
 
 **Functional Requirements (FR)**
 
-- [ ] It should be possible to register
+- [x] It should be possible to register
 - [ ] It should be possible to authenticate
 - [ ] It should be possible to retrieve the profile of a logged-in user
 - [ ] It should be possible to retrieve the number of check-ins performed by the logged-in user
@@ -88,7 +88,7 @@ npm run build
 
 ## Business requirements <a name="business"></a>
 
-- [ ] The user must not be able to register with a duplicate email
+- [x] The user must not be able to register with a duplicate email
 - [ ] The user cannot check in twice on the same day
 - [ ] The user cannot check in if not within 100m of the gym
 - [ ] The check-in can only be validated up to 20 minutes after creation
@@ -99,8 +99,8 @@ npm run build
 
 **Non-Functional Requirements (NFR)**
 
-- [ ] The user's password needs to be encrypted
-- [ ] The application data needs to be persisted in a PostgreSQL database
+- [x] The user's password needs to be encrypted
+- [x] The application data needs to be persisted in a PostgreSQL database
 - [ ] All data lists need to be paginated with 20 items per page
 - [ ] The user should be identified by a JSON Web Token (JWT)
 
