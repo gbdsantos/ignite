@@ -74,7 +74,7 @@ npm run build
 **Functional Requirements (FR)**
 
 - [x] It should be possible to register
-- [ ] It should be possible to authenticate
+- [x] It should be possible to authenticate
 - [ ] It should be possible to retrieve the profile of a logged-in user
 - [ ] It should be possible to retrieve the number of check-ins performed by the logged-in user
 - [ ] It should be possible for the user to retrieve their check-in history
