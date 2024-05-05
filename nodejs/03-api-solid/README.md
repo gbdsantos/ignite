@@ -80,7 +80,7 @@ npm run build
 - [ ] It should be possible for the user to retrieve their check-in history
 - [ ] It should be possible for the user to search for nearby gyms
 - [ ] It should be possible for the user to search for gyms by name
-- [ ] It should be possible for the user to check in at a gym
+- [x] It should be possible for the user to check in at a gym
 - [ ] It should be possible to validate a user's check-in
 - [ ] It should be possible to register a gym
 
@@ -89,7 +89,7 @@ npm run build
 ## Business requirements <a name="business"></a>
 
 - [x] The user must not be able to register with a duplicate email
-- [ ] The user cannot check in twice on the same day
+- [x] The user cannot check in twice on the same day
 - [ ] The user cannot check in if not within 100m of the gym
 - [ ] The check-in can only be validated up to 20 minutes after creation
 - [ ] The check-in can only be validated by administrators
