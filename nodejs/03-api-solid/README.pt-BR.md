@@ -155,6 +155,9 @@ npm i vitest vite-tsconfig-paths -D
 
 # Instalar Vitest UI
 npm i @vitest/ui -D
+
+# Instalar dayjs
+npm i dayjs
 ```
 
 <br>
