@@ -46,6 +46,8 @@
   </a>
 </div>
 
+<br>
+
 🍏 Aplicação parecida com o GymPass.
 A aplicação no estilo GymPass foi desenvolvida como parte do Projeto 03 do módulo "Nível 03 Implementando SOLID > API Node.js com SOLID" do Bootcamp Ignite Node.js na Rocketseat.
 
@@ -82,7 +84,7 @@ npm run build
 - [ ] Deve ser possível o usuário buscar academias pelo nome
 - [x] Deve ser possível o usuário realizar check-in em uma academia
 - [ ] Deve ser possível validar o check-in de um usuário
-- [ ] Deve ser possível cadastrar uma academia
+- [x] Deve ser possível cadastrar uma academia
 
 ## RNs (Regras de negócio) <a name = "business"></a>
 

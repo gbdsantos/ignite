@@ -46,10 +46,12 @@
   </a>
 </div>
 
+<br>
+
 🍏 GymPass style app.
 The GymPass style app is an application developed as part of Project 03 of the "Level 03 Implementing SOLID > API Node.js with SOLID" module of Node.js Ignite Bootcamp at Rocketseat.
 
-## Getting Start <a name = "start"></a>
+## 🚀 Getting Start <a name = "start"></a>
 
 ```bash
 # Install dependencies
@@ -82,7 +84,7 @@ npm run build
 - [ ] It should be possible for the user to search for gyms by name
 - [x] It should be possible for the user to check in at a gym
 - [ ] It should be possible to validate a user's check-in
-- [ ] It should be possible to register a gym
+- [x] It should be possible to register a gym
 
 <br>
 
