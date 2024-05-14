@@ -93,7 +93,7 @@ npm run build
 - [x] The user must not be able to register with a duplicate email
 - [x] The user cannot check in twice on the same day
 - [x] The user cannot check in if not within (100m) of the gym
-- [ ] The check-in can only be validated up to 20 minutes after creation
+- [x] The check-in can only be validated up to 20 minutes after creation
 - [ ] The check-in can only be validated by administrators
 - [ ] The gym can only be registered by administrators
 
