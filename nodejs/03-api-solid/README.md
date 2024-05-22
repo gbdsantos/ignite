@@ -164,6 +164,9 @@ npm i @vitest/ui -D
 
 # Install dayjs
 npm i dayjs
+
+# Install fastify/jwt
+npm i @fastify/jwt
 ```
 
 <br>
