@@ -10,5 +10,6 @@ export default {
         console.log('Teardown')
       },
     }
-  }
+  },
+  transformMode: 'ssr',
 }
