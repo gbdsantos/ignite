@@ -66,6 +66,9 @@ npx prisma migrate dev
 # Executar aplicação
 npm run dev
 
+# Configurar ambiente de teste e executar testes end-to-end
+npm run test:e2e
+
 # Executar testes
 npm test
 
@@ -163,6 +166,9 @@ npm i dayjs
 
 # Instalar fastify/jwt
 npm i @fastify/jwt
+
+# Instalar npm-run-all
+npm i npm-run-all -D
 ```
 
 <br>
