@@ -173,6 +173,9 @@ npm i @fastify/jwt
 
 # Install npm-run-all
 npm i npm-run-all -D
+
+# Install supertest
+npm i supertest -D && npm i @types/supertest -D
 ```
 
 <br>
