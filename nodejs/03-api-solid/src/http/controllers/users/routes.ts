@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify'
 
-import { authenticate } from './autenticate'
+import { authenticate } from './authenticate'
 import { profile } from './profile'
 import { refresh } from './refresh'
 import { register } from './register'
