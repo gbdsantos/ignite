@@ -1,6 +1,7 @@
 import fastify from 'fastify'
 import fastifyJwt from '@fastify/jwt'
 
+import { checkInsRoutes } from './http/controllers/check-ins/routes'
 import { gymRoutes } from './http/controllers/gyms/routes'
 import { userRoutes } from './http/controllers/users/routes'
 
@@ -13,6 +14,7 @@ app.register(fastifyJwt, {
   secret: env.JWT_SECRET,
 })
 
+app.register(checkInsRoutes)
 app.register(userRoutes)
 app.register(gymRoutes)
 
