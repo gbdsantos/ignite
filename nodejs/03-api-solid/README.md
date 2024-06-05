@@ -176,6 +176,9 @@ npm i npm-run-all -D
 
 # Install supertest
 npm i supertest -D && npm i @types/supertest -D
+
+# Install fastify/cookie
+npm i @fastify/cookie
 ```
 
 <br>
