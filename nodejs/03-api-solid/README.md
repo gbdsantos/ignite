@@ -97,8 +97,8 @@ npm run build
 - [x] The user cannot check in twice on the same day
 - [x] The user cannot check in if not within (100m) of the gym
 - [x] The check-in can only be validated up to 20 minutes after creation
-- [ ] The check-in can only be validated by administrators
-- [ ] The gym can only be registered by administrators
+- [x] The check-in can only be validated by administrators
+- [x] The gym can only be registered by administrators
 
 <br>
 
@@ -107,7 +107,7 @@ npm run build
 - [x] The user's password needs to be encrypted
 - [x] The application data needs to be persisted in a PostgreSQL database
 - [x] All data lists need to be paginated with 20 items per page
-- [ ] The user should be identified by a JSON Web Token (JWT)
+- [x] The user should be identified by a JSON Web Token (JWT)
 
 <br>
 
