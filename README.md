@@ -22,4 +22,4 @@ Ignite is an acceleration program liked bootcamp made by Rockeseat, focused for 
   - [iWeather](https://github.com/gbdsantos/iweather "Project 07: iWeather a climate app") - Focused in learn about **automated testing**, **publishing apps** and **CI/CD**
 
 ---
-Made with ♥ by **Guilherme Bezerra** 👋 [Get in touch!](https://www.linkedin.com/in/gbdsantos)
+Made with ❤️ by **Guilherme Bezerra** 👋 [Get in touch!](https://www.linkedin.com/in/gbdsantos)
