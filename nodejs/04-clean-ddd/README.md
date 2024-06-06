@@ -56,6 +56,9 @@ npm i vitest -D
 
 # Install Dayjs
 npm i dayjs
+
+# Install vite-tsconfig-paths
+npm i vite-tsconfig-paths -D
 ```
 
 <br>
