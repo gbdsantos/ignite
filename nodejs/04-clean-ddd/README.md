@@ -11,6 +11,10 @@
   <a href="https://www.typescriptlang.org">
     <img alt="TypeScript logo image" src="https://img.shields.io/badge/typescript-007acc?style=flat&logo=typescript&logoColor=white">
   </a>
+
+  <a href="https://vitest.dev" alt="Vitest - Testing framework that use esbuild">
+    <img alt="Vitest logo image" src="https://img.shields.io/badge/Vitest-FFA116?style=flat&logo=vitest&logoColor=white"  />
+  </a>
 </p>
 
 <p align="center">
@@ -46,6 +50,9 @@ npm i typescript @types/node -D
 
 # Inicialize TypeScript
 npx tsc --init
+
+# Install Vitest
+npm i vitest -D
 ```
 
 <br>
@@ -54,6 +61,7 @@ npx tsc --init
 
 - [Node.js](https://nodejs.org "Node.js") - JavaScript runtime environment / plataform
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Programming language and superset for JavaScript
+- [Vitest](https://vitest.dev "Vitest - Testing framework that use esbuild") - Testing framework that use esbuild
 
 ---
 

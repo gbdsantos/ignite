@@ -11,6 +11,10 @@
   <a href="https://www.typescriptlang.org">
     <img alt="imagem do logotipo TypeScript" src="https://img.shields.io/badge/typescript-007acc?style=flat&logo=typescript&logoColor=white">
   </a>
+
+  <a href="https://vitest.dev" alt="Vitest - Testing framework that use esbuild">
+    <img alt="imagem do logotipo Vitest" src="https://img.shields.io/badge/Vitest-FFA116?style=flat&logo=vitest&logoColor=white"  />
+  </a>
 </p>
 
 <p align="center">
@@ -45,6 +49,9 @@ npm install --no-workspaces
 ```bash
 # Instalar TypeScript, Node.js types
 npm i typescript @types/node -D
+
+# Instalar Vitest
+npm i vitest -D
 ```
 
 <br>
@@ -53,6 +60,7 @@ npm i typescript @types/node -D
 
 - [Node.js](https://nodejs.org "Node.js") - Ambiente/plataforma em tempo de execução para JavaScript
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Linguagem de programação e *superset* para JavaScript
+- [Vitest](https://vitest.dev "Vitest - Framework de teste que usa esbuild") - Framework de teste que usa esbuild
 
 ---
 
