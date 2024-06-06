@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitest": "1.6.0"
+  },
+  "dependencies": {
+    "dayjs": "1.11.11"
   }
 }

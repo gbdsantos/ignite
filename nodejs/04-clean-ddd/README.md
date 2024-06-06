@@ -53,6 +53,9 @@ npx tsc --init
 
 # Install Vitest
 npm i vitest -D
+
+# Install Dayjs
+npm i dayjs
 ```
 
 <br>

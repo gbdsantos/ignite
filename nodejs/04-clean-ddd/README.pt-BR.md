@@ -52,6 +52,9 @@ npm i typescript @types/node -D
 
 # Instalar Vitest
 npm i vitest -D
+
+# Instalar Dayjs
+npm i dayjs
 ```
 
 <br>
