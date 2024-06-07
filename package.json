@@ -2,10 +2,5 @@
   "name": "@monorepo/ignite",
   "version": "1.0.0",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "nodejs/*"
-    ]
-  },
   "author": "Guilherme Bezerra"
 }

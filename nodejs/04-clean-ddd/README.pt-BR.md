@@ -58,6 +58,9 @@ npm i dayjs
 
 # Instalar vite-tsconfig-paths
 npm i vite-tsconfig-paths -D
+
+# Instalar ESLint
+npm i eslint @rocketseat/eslint-config -D
 ```
 
 <br>
