@@ -61,6 +61,9 @@ npm i vite-tsconfig-paths -D
 
 # Instalar ESLint
 npm i eslint @rocketseat/eslint-config -D
+
+# Instalar faker-js para lidar com dados fictícios
+npm i @faker-js/faker -D
 ```
 
 <br>
