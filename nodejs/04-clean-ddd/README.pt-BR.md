@@ -26,7 +26,7 @@
 
 <div align="center">
   <h4 align="center">leia no idioma</h4>
-  <a href="https://github.com/gbdsantos/ignite/tree/master/nodejs/03-api-solid" hreflang="en-us" alt="en-us">🇺🇸 inglês
+  <a href="https://github.com/gbdsantos/ignite/tree/master/nodejs/04-clean-ddd" hreflang="en-us" alt="en-us">🇺🇸 inglês
   </a>
 </div>
 

@@ -2,6 +2,8 @@ import { Comment, CommentProps } from './comment'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 import { Optional } from '@/core/types/optional'
 
+// TODO: Implement events (pub/sub)
+
 export interface QuestionCommentProps extends CommentProps {
   questionId: UniqueEntityID
 }
