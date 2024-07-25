@@ -71,6 +71,12 @@ npx prisma init
 
 # Add Bcryptjs
 npm i bcryptjs && npm i @types/bcryptjs -D
+
+# Add Zod
+npm i zod
+
+# Add zod-validation-error
+npm i zod-validation-error
 ```
 
 <br>
