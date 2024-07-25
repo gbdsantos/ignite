@@ -79,6 +79,9 @@ npm i zod
 
 # Adicionar zod-validation-error
 npm i zod-validation-error
+
+# Adicionar @nestjs/config
+npm i @nestjs/config
 ```
 
 <br>
