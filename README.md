@@ -9,6 +9,7 @@ Ignite is an acceleration program liked bootcamp made by Rockeseat, focused for 
   - [Creating REST API with Node.js](https://github.com/gbdsantos/ignite/tree/master/nodejs/02-creating-rest-api-with-nodejs "Finance tracker - Node.js Ignite project 02") - A simple finance tracker, essentially a CRUD application, built with **Fastify**
   - [API Node.js with SOLID](https://github.com/gbdsantos/ignite/tree/master/nodejs/03-api-solid "GymPass style application - Node.js Ignite project 03") - A application like GymPass, essentially built with **Fastify** applying SOLID principles, **Prisma ORM** and **PostgreSQL**
   - [DDD and First Framework](https://github.com/gbdsantos/ignite/tree/master/nodejs/04-clean-ddd "A forum-style application - Node.js Ignite project 04") - A forum-style application applying DDD concepts
+  - [NestJS](https://github.com/gbdsantos/ignite/tree/master/nodejs/05-nest-clean "Node.js Ignite project 05")
 
 - **ReactJS**
   - [Ignite Feed](https://github.com/gbdsantos/reactjs-rocketseat-ignite-fundamentals-2022 "Social media application")

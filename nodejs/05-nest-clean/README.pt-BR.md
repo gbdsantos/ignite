@@ -55,6 +55,9 @@ npm run start:dev
 ```bash
 # Criar um novo projeto chamado 05-nest-clean
 nest new 05-nest-clean
+
+# Adicionar ESLint
+npm i eslint @rocketseat/eslint-config -D
 ```
 
 <br>
