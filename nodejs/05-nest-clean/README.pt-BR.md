@@ -85,6 +85,16 @@ npm i @nestjs/config
 
 # Adicionar Passport and JWT for NestJS
 npm i @nestjs/passport @nestjs/jwt
+
+# Gerar chave RS256 privada (Ubuntu)
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
+
+# Gerar chave RS256 pública à partir da chave privada gerada (Ubuntu)
+openssl rsa -pubout -in private_key.pem -out public_key.pem
+
+# Converter conteúdo do arquivo das chaves para base64
+base64 private_key.pem > private_key_base64.txt
+base64 public_key.pem > public_key_base64.txt
 ```
 
 <br>
