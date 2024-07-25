@@ -82,6 +82,9 @@ npm i zod-validation-error
 
 # Adicionar @nestjs/config
 npm i @nestjs/config
+
+# Adicionar Passport and JWT for NestJS
+npm i @nestjs/passport @nestjs/jwt
 ```
 
 <br>
