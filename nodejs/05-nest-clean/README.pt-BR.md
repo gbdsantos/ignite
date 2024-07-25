@@ -44,6 +44,9 @@ Esta aplicação foi desenvolvida como parte do Projeto 05 do módulo "Nível 04
 # Instalar dependências
 npm install --no-workspaces
 
+# Criar um novo ambiente Docker
+docker compose up -d
+
 # Executar projeto
 npm run start:dev
 ```

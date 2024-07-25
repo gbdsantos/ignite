@@ -44,6 +44,9 @@ This application developed as part of Project 05 of the "Level 04 DDD and First 
 # Install dependencies
 npm install --no-workspaces
 
+# Create a new Docker environment
+docker compose up -d
+
 # Run project
 npm run start:dev
 ```
