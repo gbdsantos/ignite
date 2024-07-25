@@ -47,6 +47,9 @@ npm install --no-workspaces
 # Create a new Docker environment
 docker compose up -d
 
+# Run migrations
+npx prisma migrate dev
+
 # Run project
 npm run start:dev
 ```
@@ -59,6 +62,12 @@ nest new 05-nest-clean
 
 # Add ESLint
 npm i eslint @rocketseat/eslint-config -D
+
+# Add Prisma and Prisma Client
+npm i prisma -D && npm i @prisma/client
+
+# Initialize Prisma
+npx prisma init
 ```
 
 <br>
