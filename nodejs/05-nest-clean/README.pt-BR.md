@@ -70,6 +70,9 @@ npm i prisma -D
 
 # Inicializar o Prisma
 npx prisma init
+
+# Adicionar Bcryptjs
+npm i bcryptjs && npm i @types/bcryptjs -D
 ```
 
 <br>
