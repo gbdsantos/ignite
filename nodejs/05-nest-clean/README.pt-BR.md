@@ -95,6 +95,9 @@ openssl rsa -pubout -in private_key.pem -out public_key.pem
 # Converter conteúdo do arquivo das chaves para base64
 base64 private_key.pem > private_key_base64.txt
 base64 public_key.pem > public_key_base64.txt
+
+# Adicionar passport-jwt
+npm i passport-jwt && npm i @types/passport-jwt -D
 ```
 
 <br>
