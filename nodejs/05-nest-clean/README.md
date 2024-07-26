@@ -9,7 +9,7 @@
   </a>
 
   <a href="https://nodejs.org">
-    <img alt="Node.js logo image" src="https://img.shields.io/badge/node.js-v20.11.0-43853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
+    <img alt="Node.js logo image" src="https://img.shields.io/badge/node.js-v20.16.0-43853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
   </a>
 
   <a href="https://www.typescriptlang.org">
@@ -96,6 +96,9 @@ base64 public_key.pem > public_key_base64.txt
 
 # Add passport-jwt
 npm i passport-jwt && npm i @types/passport-jwt -D
+
+# Setting Vitest in NestJS
+npm i vitest unplugin-swc @swc/core @vitest/coverage-v8 -D && npm i vite-tsconfig-paths -D
 ```
 
 <br>
