@@ -101,6 +101,9 @@ npm i passport-jwt && npm i @types/passport-jwt -D
 
 # Configurando Vitest no NestJS
 npm i vitest unplugin-swc @swc/core @vitest/coverage-v8 -D && npm i vite-tsconfig-paths -D
+
+# Adicionar DotEnv
+ npm i dotenv -D
 ```
 
 <br>
