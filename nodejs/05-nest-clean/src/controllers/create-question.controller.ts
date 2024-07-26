@@ -1,14 +1,17 @@
 import { Controller, Post, UseGuards } from '@nestjs/common'
 import { JwtAuthGuard } from 'src/auth/jwt-auth.guard'
-import { PrismaService } from 'src/prisma/prisma.service'
+import { CurrentUser } from 'src/auth/current-user-decorator'
+import { UserPayLoad } from 'src/auth/jwt.strategy'
 
 @Controller('/questions')
 @UseGuards(JwtAuthGuard)
 export class CreateQuestionController {
-  constructor(private prisma: PrismaService) {}
+  constructor() {}
 
   @Post()
-  async handle() {
+  async handle(@CurrentUser() user: UserPayLoad) {
+    console.log(user)
+
     return 'ok'
   }
 }
