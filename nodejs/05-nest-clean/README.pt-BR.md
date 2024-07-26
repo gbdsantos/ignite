@@ -103,7 +103,10 @@ npm i passport-jwt && npm i @types/passport-jwt -D
 npm i vitest unplugin-swc @swc/core @vitest/coverage-v8 -D && npm i vite-tsconfig-paths -D
 
 # Adicionar DotEnv
- npm i dotenv -D
+npm i dotenv -D
+
+# Adicionar Supertest
+npm i supertest @types/supertest -D
 ```
 
 <br>
