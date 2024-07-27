@@ -52,6 +52,9 @@ npx prisma migrate dev
 
 # Run project
 npm run start:dev
+
+# Verify TypeScript code integrity (type checking) without compile the code (OPTIONAL)
+npx tsc --noEmit
 ```
 
 ## Commands executed <a name = "commands"></a>
@@ -105,6 +108,12 @@ npm i dotenv -D
 
 # Add Supertest
 npm i supertest @types/supertest -D
+
+# Add Faker
+npm i @faker-js/faker -D
+
+# Add Dayjs
+npm i dayjs
 ```
 
 <br>
