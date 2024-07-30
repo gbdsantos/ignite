@@ -5,9 +5,13 @@ import { QuestionAttachmentsRepository } from '@/domain/forum/application/reposi
 import { QuestionsRepository } from '@/domain/forum/application/repositories/question-repository'
 import { PaginationParams } from '@/core/repositories/pagination-params'
 import { DomainEvents } from '@/core/events/domain-events'
+import { PrismaService } from '../prisma.service'
+import { PrismaQuestionMapper } from '../mappers/prisma-question-mapper'
 
 @Injectable()
 export class PrismaQuestionsRepository implements QuestionsRepository {
+  constructor(private prisma: PrismaService) {}
+
   create(question: Question): Promise<void> {
     throw new Error('Method not implemented.')
   }
@@ -16,8 +20,18 @@ export class PrismaQuestionsRepository implements QuestionsRepository {
     throw new Error('Method not implemented.')
   }
 
-  findById(id: string): Promise<Question | null> {
-    throw new Error('Method not implemented.')
+  async findById(id: string): Promise<Question | null> {
+    const question = await this.prisma.question.findUnique({
+      where: {
+        id,
+      },
+    })
+
+    if (!question) {
+      return null
+    }
+
+    return PrismaQuestionMapper.toDomain(question)
   }
 
   findBySlug(slug: string): Promise<Question | null> {
