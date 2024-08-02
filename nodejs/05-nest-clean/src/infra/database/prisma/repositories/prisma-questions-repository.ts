@@ -1,10 +1,8 @@
 import { Injectable } from '@nestjs/common'
 
 import { Question } from '@/domain/forum/enterprise/entities/question'
-import { QuestionAttachmentsRepository } from '@/domain/forum/application/repositories/question-attachments-repository'
 import { QuestionsRepository } from '@/domain/forum/application/repositories/question-repository'
 import { PaginationParams } from '@/core/repositories/pagination-params'
-import { DomainEvents } from '@/core/events/domain-events'
 import { PrismaService } from '../prisma.service'
 import { PrismaQuestionMapper } from '../mappers/prisma-question-mapper'
 
