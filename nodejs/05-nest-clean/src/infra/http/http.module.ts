@@ -25,6 +25,9 @@ import { DeleteAnswerUseCase } from '@/domain/forum/application/use-cases/delete
 import { DeleteQuestionController } from './controllers/delete-question.controller'
 import { DeleteQuestionUseCase } from '@/domain/forum/application/use-cases/delete-question'
 
+import { DeleteQuestionCommentController } from './controllers/delete-question-comment.controller'
+import { DeleteQuestionCommentUseCase } from '@/domain/forum/application/use-cases/delete-question-comment'
+
 import { EditAnswerController } from './controllers/edit-answer.controller'
 import { EditAnswerUseCase } from '@/domain/forum/application/use-cases/edit-answer'
 
@@ -52,6 +55,7 @@ import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/reg
     CreateAccountController,
     CreateQuestionController,
     DeleteQuestionController,
+    DeleteQuestionCommentController,
     EditAnswerController,
     EditQuestionController,
     DeleteAnswerController,
@@ -66,6 +70,7 @@ import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/reg
     CreateQuestionUseCase,
     DeleteAnswerUseCase,
     DeleteQuestionUseCase,
+    DeleteQuestionCommentUseCase,
     EditAnswerUseCase,
     EditQuestionUseCase,
     FetchQuestionsAnswersUseCase,
