@@ -25,6 +25,9 @@ import { EditAnswerUseCase } from '@/domain/forum/application/use-cases/edit-ans
 import { EditQuestionController } from './controllers/edit.question.controller'
 import { EditQuestionUseCase } from '@/domain/forum/application/use-cases/edit-question'
 
+import { FetchQuestionAnswersController } from './controllers/fetch-question-answers.controller'
+import { FetchQuestionsAnswersUseCase } from '@/domain/forum/application/use-cases/fetch-question-answers'
+
 import { FetchRecentQuestionsController } from './controllers/fetch-recent-questions.controller'
 import { FetchRecentQuestionsUseCase } from '@/domain/forum/application/use-cases/fetch-recent-questions'
 
@@ -44,6 +47,7 @@ import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/reg
     EditAnswerController,
     EditQuestionController,
     DeleteAnswerController,
+    FetchQuestionAnswersController,
     FetchRecentQuestionsController,
     GetQuestionBySlugController,
   ],
@@ -54,6 +58,7 @@ import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/reg
     DeleteQuestionUseCase,
     EditAnswerUseCase,
     EditQuestionUseCase,
+    FetchQuestionsAnswersUseCase,
     FetchRecentQuestionsUseCase,
     GetQuestionBySlugUseCase,
     AuthenticateStudentUseCase,
