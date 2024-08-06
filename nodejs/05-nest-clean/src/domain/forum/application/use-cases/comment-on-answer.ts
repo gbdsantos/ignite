@@ -5,6 +5,8 @@ import { AnswersRepository } from '../repositories/answers-repository'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 import { ResourceNotFoundError } from '@/core/errors/errors/resource-not-found-error'
 
+import { Injectable } from '@nestjs/common'
+
 interface CommentOnAnswerUseCaseRequest {
   authorId: string
   answerId: string
@@ -18,6 +20,7 @@ type CommentOnAnswerUseCaseResponse = Either<
   }
 >
 
+@Injectable()
 export class CommentOnAnswerUseCase {
   constructor(
     private answersRepository: AnswersRepository,

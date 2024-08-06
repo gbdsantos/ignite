@@ -11,6 +11,9 @@ import { AuthenticateStudentUseCase } from '@/domain/forum/application/use-cases
 import { ChooseQuestionBestAnswerController } from './controllers/choose-question-best-answer.controller'
 import { ChooseQuestionBestAnswerUseCase } from '@/domain/forum/application/use-cases/choose-question-best-answer'
 
+import { CommentOnAnswerController } from './controllers/comment-on-answer.controller'
+import { CommentOnAnswerUseCase } from '@/domain/forum/application/use-cases/comment-on-answer'
+
 import { CommentOnQuestionController } from './controllers/comment-on-question.controller'
 import { CommentOnQuestionUseCase } from '@/domain/forum/application/use-cases/comment-on-question'
 
@@ -51,6 +54,7 @@ import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/reg
     AnswerQuestionController,
     AuthenticateController,
     ChooseQuestionBestAnswerController,
+    CommentOnAnswerController,
     CommentOnQuestionController,
     CreateAccountController,
     CreateQuestionController,
@@ -66,6 +70,7 @@ import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/reg
   providers: [
     AnswerQuestionUseCase,
     ChooseQuestionBestAnswerUseCase,
+    CommentOnAnswerUseCase,
     CommentOnQuestionUseCase,
     CreateQuestionUseCase,
     DeleteAnswerUseCase,
