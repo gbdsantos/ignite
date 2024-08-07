@@ -114,6 +114,9 @@ npm i @faker-js/faker -D
 
 # Add Dayjs
 npm i dayjs
+
+# Add Multer
+npm i @types/multer -D
 ```
 
 <br>
