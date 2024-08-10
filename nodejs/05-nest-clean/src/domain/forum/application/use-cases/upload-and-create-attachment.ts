@@ -45,14 +45,13 @@ export class UploadAndCreateAttachmentUseCase {
 
     const attachment = Attachment.create({
       title: fileName,
-      url: fileName,
+      url,
     })
 
     await this.attachmentsRepository.create(attachment)
 
     return right({
       attachment,
-      url,
     })
   }
 }
