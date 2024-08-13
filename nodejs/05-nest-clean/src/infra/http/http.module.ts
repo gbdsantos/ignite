@@ -1,6 +1,8 @@
+import { Module } from '@nestjs/common'
+
 import { CryptographyModule } from '../cryptography/cryptography.module'
 import { DatabaseModule } from '../database/database.module'
-import { Module } from '@nestjs/common'
+import { StorageModule } from '../storage/storage.module'
 
 import { AnswerQuestionController } from './controllers/answer-question.controller'
 import { AnswerQuestionUseCase } from '@/domain/forum/application/use-cases/answer-question'
@@ -58,8 +60,10 @@ import { GetQuestionBySlugUseCase } from '@/domain/forum/application/use-cases/g
 import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/register-student'
 import { UploadAttachmentController } from './controllers/upload-attachment.controller'
 
+import { UploadAndCreateAttachmentUseCase } from '@/domain/forum/application/use-cases/upload-and-create-attachment'
+
 @Module({
-  imports: [DatabaseModule, CryptographyModule],
+  imports: [DatabaseModule, CryptographyModule, StorageModule],
   controllers: [
     AnswerQuestionController,
     AuthenticateController,
@@ -100,6 +104,7 @@ import { UploadAttachmentController } from './controllers/upload-attachment.cont
     GetQuestionBySlugUseCase,
     AuthenticateStudentUseCase,
     RegisterStudentUseCase,
+    UploadAndCreateAttachmentUseCase,
   ],
 })
 export class HttpModule {}

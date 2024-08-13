@@ -37,6 +37,7 @@
 <br>
 
 This application developed as part of Project 05 of the "Level 04 DDD and First Framework > DDD in Node.js > NestJS" module of Node.js Ignite Bootcamp at Rocketseat.
+Upload service using Cloudflare R2.
 
 ## 🚀 Getting Start <a name = "start"></a>
 
@@ -117,12 +118,16 @@ npm i dayjs
 
 # Add Multer
 npm i @types/multer -D
+
+# Add AWS SDK (S3)
+npm i @aws-sdk/client-s3
 ```
 
 <br>
 
 ## Technologies used <a name="technologies"></a>
 
+- [Cloudflare R2](https://www.cloudflare.com "Cloudflare R2 - S3-compatible object storage with $0 egress fees")
 - [Nest.js](https://nestjs.com "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.") - A progressive Node.js framework for building efficient, reliable and scalable server-side applications
 - [Node.js](https://nodejs.org "Node.js") - JavaScript runtime environment / plataform
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Programming language and superset for JavaScript
