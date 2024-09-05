@@ -57,6 +57,9 @@ import { FetchRecentQuestionsUseCase } from '@/domain/forum/application/use-case
 import { GetQuestionBySlugController } from './controllers/get-question-by-slug.controller'
 import { GetQuestionBySlugUseCase } from '@/domain/forum/application/use-cases/get-question-by-slug'
 
+import { ReadNotificationController } from './controllers/read-notification.controller'
+import { ReadNotificationUseCase } from '@/domain/notification/application/use-cases/read-notification'
+
 import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/register-student'
 import { UploadAttachmentController } from './controllers/upload-attachment.controller'
 
@@ -83,6 +86,7 @@ import { UploadAndCreateAttachmentUseCase } from '@/domain/forum/application/use
     FetchQuestionCommentsController,
     FetchRecentQuestionsController,
     GetQuestionBySlugController,
+    ReadNotificationController,
     UploadAttachmentController,
   ],
   providers: [
@@ -103,6 +107,7 @@ import { UploadAndCreateAttachmentUseCase } from '@/domain/forum/application/use
     FetchRecentQuestionsUseCase,
     GetQuestionBySlugUseCase,
     AuthenticateStudentUseCase,
+    ReadNotificationUseCase,
     RegisterStudentUseCase,
     UploadAndCreateAttachmentUseCase,
   ],
