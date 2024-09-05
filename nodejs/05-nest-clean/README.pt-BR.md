@@ -12,6 +12,10 @@
     <img alt="imagem do logotipo Nodejs" src="https://img.shields.io/badge/node.js-v20.16.0-43853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
   </a>
 
+  <a href="https://redis.io" target="_blank">
+    <img alt="logotipo do Redis" src="https://img.shields.io/badge/Redis-dc382c?style=flat&logo=redis&logoColor=white">
+  </a>
+
   <a href="https://www.typescriptlang.org">
     <img alt="imagem do logotipo TypeScript" src="https://img.shields.io/badge/typescript-007acc?style=flat&logo=typescript&logoColor=white">
   </a>
@@ -123,6 +127,9 @@ npm i @types/multer -D
 
 # Adicionar AWS SDK (S3)
 npm i @aws-sdk/client-s3
+
+# Adicionar Redis
+npm i ioredis
 ```
 
 <br>
@@ -132,6 +139,7 @@ npm i @aws-sdk/client-s3
 - [Cloudflare R2](https://www.cloudflare.com "Cloudflare R2 - Armazenamento de objetos compatível com S3 com taxas de saída US$ 0")
 - [Nest.js](https://nestjs.com "Um framework Node.js progressivo para construir aplicativos do lado do servidor eficientes, confiáveis ​​e escaláveis.") - Um framework Node.js progressivo para construir aplicativos do lado do servidor eficientes, confiáveis ​​e escaláveis
 - [Node.js](https://nodejs.org "Node.js") - Ambiente/plataforma em tempo de execução para JavaScript
+- [Redis](https://redis.io "Redis - Armazenamento de dados em memória de código aberto, usado por milhões de desenvolvedores como cache, banco de dados de vetores, banco de dados de documentos, motor de streaming e message broker") - Armazenamento de dados em memória de código aberto, usado por milhões de desenvolvedores como cache, banco de dados de vetores, banco de dados de documentos, motor de streaming e message broker
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Linguagem de programação e *superset* para JavaScript
 - [Vitest](https://vitest.dev "Vitest - Framework de teste que usa esbuild") - Framework de teste que usa esbuild
 

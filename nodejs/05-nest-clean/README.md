@@ -12,6 +12,10 @@
     <img alt="Node.js logo image" src="https://img.shields.io/badge/node.js-v20.16.0-43853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
   </a>
 
+  <a href="https://redis.io" target="_blank">
+    <img alt="Redis logo" src="https://img.shields.io/badge/Redis-dc382c?style=flat&logo=redis&logoColor=white">
+  </a>
+
   <a href="https://www.typescriptlang.org">
     <img alt="TypeScript logo image" src="https://img.shields.io/badge/typescript-007acc?style=flat&logo=typescript&logoColor=white">
   </a>
@@ -121,6 +125,9 @@ npm i @types/multer -D
 
 # Add AWS SDK (S3)
 npm i @aws-sdk/client-s3
+
+# Add Redis
+npm i ioredis
 ```
 
 <br>
@@ -130,6 +137,7 @@ npm i @aws-sdk/client-s3
 - [Cloudflare R2](https://www.cloudflare.com "Cloudflare R2 - S3-compatible object storage with $0 egress fees")
 - [Nest.js](https://nestjs.com "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.") - A progressive Node.js framework for building efficient, reliable and scalable server-side applications
 - [Node.js](https://nodejs.org "Node.js") - JavaScript runtime environment / plataform
+- [Redis](https://redis.io "Redis - The open-source, in-memory data store used by millions of developers as a cache, vector database, document database, streaming engine, and message broker") - The open-source, in-memory data store used by millions of developers as a cache, vector database, document database, streaming engine, and message broker
 - [TypeScript](https://www.typescriptlang.org "TypeScript") - Programming language and superset for JavaScript
 - [Vitest](https://vitest.dev "Vitest - Testing framework that use esbuild") - Testing framework that use esbuild
 
